@@ -122,7 +122,7 @@ class BraiinsS9:
 
 
     def stop_mining(self):
-        """ Enable the hashboards """
+        """ Disable the hashboards """
         # Must populate the full json POST data built from all the fields on the page
         data = self.build_mining_config(False, False, False)
         res = self.session.post(url=f"http://{self.ip_address}/cgi-bin/luci/admin/miner/cfg_save/", json=data)
