@@ -1,4 +1,4 @@
-# braiins_s9
+# braiins_s9 python control
 Programmatically start/stop mining on an S9 running Braiins OS.
 
 If you issue a `stop` command via the API, mining will stop but the S9 fans will reset to MAX for some reason. So instead, this python code leverages the existing Braiins web UI to activate/deactivate the hashboards. This puts the S9 into a quieter idling state (fans still running, but at a minimal speed).
