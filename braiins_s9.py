@@ -13,7 +13,7 @@ class BraiinsS9:
         """
         Set up a logged in requests.Session for status calls.
 
-        Set up a logged in webdriver.Chrome headless instance to alter power level
+        Set up a logged in webdriver.Chrome headless instance to enable/disable hashboards
         """
         self.ip_address = ip_address
         self.session = requests.Session()
